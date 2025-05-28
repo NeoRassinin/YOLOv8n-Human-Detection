@@ -22,8 +22,7 @@ pip install -r requirements.txt
 ## Структура проекта
 ```plaintext
 YOLOv8n-Human-Detection/
-├── script.py              # Основной скрипт (с точкой входа)
-├── requirements.txt       # Зависимости проекта
-├── output/                # Папка с результирующим видео
+├── YOLOv8n-Human-Detection.py      # Основной скрипт (с точкой входа)
+├── requirements.txt       # Зависимости проекта          
 └── README.md              # Это описание проекта
 
