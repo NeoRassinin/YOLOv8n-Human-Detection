@@ -13,7 +13,6 @@
 
 1. Клонируй репозиторий:
 git clone https://github.com/NeoRassinin/YOLOv8n-Human-Detection.git
-cd YOLOv8n-Human-Detection
 2. Установи зависимости:
 pip install -r requirements.txt
 3. Помести входной файл crowd.mp4 в корень проекта.
@@ -21,6 +20,7 @@ pip install -r requirements.txt
 
 
 ## Структура проекта
+```plaintext
 YOLOv8n-Human-Detection/
 ├── script.py              # Основной скрипт (с точкой входа)
 ├── requirements.txt       # Зависимости проекта
