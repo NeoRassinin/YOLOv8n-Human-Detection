@@ -1,0 +1,29 @@
+# YOLOv8n Human Detection
+
+Этот проект реализует детекцию людей на видео с использованием модели YOLOv8n и библиотеки Ultralytics.
+
+## Описание
+
+Программа выполняет:
+- Загрузку видеофайла
+- Детекцию объектов (людей) с помощью YOLOv8n
+- Отрисовку прямоугольников и сохранение нового видеофайла
+
+## Установка
+
+1. Клонируй репозиторий:
+git clone https://github.com/NeoRassinin/YOLOv8n-Human-Detection.git
+cd YOLOv8n-Human-Detection
+2. Установи зависимости:
+pip install -r requirements.txt
+3. Помести входной файл crowd.mp4 в корень проекта.
+4. Запусти скрипт: python YOLOv8n Human Detection.py
+
+
+## Структура проекта
+YOLOv8n-Human-Detection/
+├── script.py              # Основной скрипт (с точкой входа)
+├── requirements.txt       # Зависимости проекта
+├── output/                # Папка с результирующим видео
+└── README.md              # Это описание проекта
+
